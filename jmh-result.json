@@ -1,0 +1,57 @@
+[
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "com.example.Main.hutool",
+        "mode" : "avgt",
+        "threads" : 3,
+        "forks" : 1,
+        "jvm" : "/Users/didi/Library/Java/JavaVirtualMachines/liberica-1.8.0_382/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52605:/Applications/IntelliJ IDEA.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_382",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.382-b06",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 22.931155043669282,
+            "scoreError" : 10.128641496406537,
+            "scoreConfidence" : [
+                12.802513547262745,
+                33.05979654007582
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21.555562565937112,
+                "50.0" : 21.850359524851267,
+                "90.0" : 27.62953064001943,
+                "95.0" : 27.62953064001943,
+                "99.0" : 27.62953064001943,
+                "99.9" : 27.62953064001943,
+                "99.99" : 27.62953064001943,
+                "99.999" : 27.62953064001943,
+                "99.9999" : 27.62953064001943,
+                "100.0" : 27.62953064001943
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    21.850359524851267,
+                    27.62953064001943,
+                    21.555562565937112,
+                    21.69364684153669,
+                    21.926675646001915
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
